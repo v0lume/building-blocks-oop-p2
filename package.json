@@ -1,0 +1,23 @@
+{
+    "name": "02_oop_and_ood",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.ts",
+    "directories": {
+      "src": "src",
+      "test": "test"
+    },
+    "scripts": {
+      "test:item": "jest test/Item.spec.ts",
+      "test": "jest"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@types/jest": "^26.0.14",
+      "jest": "^26.4.2",
+      "ts-jest": "^26.4.0",
+      "ts-node": "^8.10.2",
+      "typescript": "^3.9.7"
+    }
+  }
