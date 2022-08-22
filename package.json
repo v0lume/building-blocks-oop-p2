@@ -11,6 +11,7 @@
       "test:item": "jest test/Item.spec.ts",
       "test:itemweightcomparator": "jest test/ItemWeightComparator.spec.ts",
       "test:weapon": "jest test/Weapon.spec.ts",
+      "test:sword": "jest test/Sword.spec.ts",
       "test": "jest"
     },
     "author": "",
