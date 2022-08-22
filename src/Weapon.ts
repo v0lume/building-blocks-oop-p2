@@ -25,7 +25,7 @@ export abstract class Weapon extends Item {
     }
 
     public getDurability(): number {
-        return this.baseDurability + this.durabilityModifier;
+        return +(this.baseDurability + this.durabilityModifier).toFixed(4);
     }
 
     use(): string {
