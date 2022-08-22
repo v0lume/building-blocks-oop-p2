@@ -9,6 +9,7 @@ export abstract class Item implements Comparable<Item> {
     protected weight: number;
 
     constructor();
+    constructor(name?, value?, weight?)
     constructor(name: string = 'item', value: number = 0, weight: number = 0) {
         const nextId = id + 1;
 

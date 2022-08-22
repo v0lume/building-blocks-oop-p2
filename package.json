@@ -9,6 +9,7 @@
     },
     "scripts": {
       "test:item": "jest test/Item.spec.ts",
+      "test:itemweightcomparator": "jest test/ItemWeightComparator.spec.ts",
       "test": "jest"
     },
     "author": "",
