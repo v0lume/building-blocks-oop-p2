@@ -37,10 +37,10 @@ export abstract class Weapon extends Item {
         this.durabilityModifier = newDurabilityModifier;
 
         if (isBroken) {
-            return `you can't use the hammer, it is broken.`;
+            return `you can't use the ${this.getName()}, it is broken.`;
         }
 
-        return `you use the hammer, dealing ${this.getDamage().toFixed(2)} points of damage.${isBreaking ? ` the ${this.getName()} breaks.` : ''}`;
+        return `you use the ${this.getName()}, dealing ${this.getDamage().toFixed(2)} points of damage.${isBreaking ? ` the ${this.getName()} breaks.` : ''}`;
     }
 
     public toString(): string {
